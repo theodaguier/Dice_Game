@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State var numb : Int = 1
     
     var body: some View {
@@ -31,7 +32,7 @@ struct ContentView: View {
                             .cornerRadius(/*@START_MENU_TOKEN@*/15.0/*@END_MENU_TOKEN@*/)
                             .foregroundColor(.orange)
                             
-                        Text("Roll the dice")
+                        Text("Roll the dice !")
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                     }
